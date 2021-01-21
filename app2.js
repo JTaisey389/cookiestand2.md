@@ -57,3 +57,18 @@
 //   ;
 // }
 // console.log(Math.random() * (16 - 2) + 2);
+
+// function Pokemon(name, healthpoints, attacksPoints, abilities,) {
+//   this.name = name;
+//   this.healthpoints = healthpoints;
+//   this.attacksPoints = attacksPoints;
+//   this.abilities = abilities;
+//   this.speak = function () {
+//     console.log(this.name)
+//   }
+// }
+
+// var picachoo = new Pokeman("Picachoo", 3 , 6, "Shockingly Cute", "Pica Picachoo");
+// Pokemon.speak;
+
+// console.log(picachoo)
