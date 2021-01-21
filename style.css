@@ -7,22 +7,22 @@ td {
 }
 
 body {
-  background-color: rgb(89, 102, 100);
+  background-color: lavender;
 }
 
-header, footer {
+/* header, footer {
   background-color: rgb(89, 102, 100);
   text-align: center;
   border: double black 3px;
 }
 
 section {
-  background-color:rgb(89, 102, 100);
+  background-color;
   text-align: center;
   border: double black 3px;
-}
+} */
 
-#hero {
+/* #hero {
   height: 300px;
   width: 800px;
   border: solid black 2px;
@@ -42,4 +42,4 @@ li {
 
 .display_change > p{
   width: 400px;
-}
+} */
