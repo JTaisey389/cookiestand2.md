@@ -1,45 +1,98 @@
-table {
-  border:thin salmon solid;
-}
 
-td {
-  border: thin black solid;
-}
 
-body {
+/* Main HTML Atribute */
+html {
   background-color: lavender;
+  margin: 20px;
+  border: 20px;
+  padding: 20px;
 }
-
-/* header, footer {
-  background-color: rgb(89, 102, 100);
+/* Applies styling to the body */
+body {
+  height: 100vh;
+  width: 1060px;
+  align-self: center;
+  margin: auto;
+}
+/* Creating a height, a color and aligning text */
+header {
+  height:90px;
+  background-color: lightgrey;
   text-align: center;
-  border: double black 3px;
 }
-
+/* Nav bar poistion, the padding, color and general font size */
+nav {
+  position: relative;
+  padding-top: 10px;
+  color:#a7a7a7;
+  font-size: 20pt;
+}
+/* Gives the images a border radius */
+nav img {
+  border-radius: 20px;
+}
+/* Tells the UL's to be center */
+nav ul {
+  align-items: center;
+}
+/* targets the headers nav UL and the list specifically.  */
+header nav ul li {
+  display:inline;
+  margin:auto;
+  height: fit-content;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+/* The article contains the three images which are inline */
+article {
+  width: fit-content;
+  margin: auto;
+}
+/* Within th Article we apply some styling and margin to the three images */
+article img {
+  margin: 15px;
+  border-radius: 20px;
+}
+/* The about section is divided as a grid, one for the image placeholder and the second for the text */
+#about {
+  display:grid;
+  grid-template-columns:480px 480px;
+  grid-gap:30px;
+  height: 400px;
+  margin: 15px auto 30px auto;
+}
+/* Applies styling to the images within the section */
+section img {
+  border-radius: 20px;
+}
+/* Applies styling to the section */
 section {
-  background-color;
-  text-align: center;
-  border: double black 3px;
-} */
+  width:fit-content;
+  margin: 30px auto 15px auto;
+}
 
-/* #hero {
+aside {
+  height:400px;
+}
+
+#about h2 {
+  font-size: 24pt;
+}
+
+#about p {
+  font-size: 18pt;
   height: 300px;
-  width: 800px;
-  border: solid black 2px;
-  float: left;
+  overflow-y: scroll;
+  scroll-padding-bottom:unset;
 }
 
-li {
-  border: solid black 1px;
-  display: inline;
-  margin: 90px;
+button {
+  width:120px;
+  height: 25px;
+  margin-top: 7px;
+  font-size: 8pt;
+  color:white;
+  background-color: black;
+  padding: auto 30px;
 }
 
-.display_change {
-  /* display: inline; */
-  width: 390px;
-}
-
-.display_change > p{
-  width: 400px;
-} */
